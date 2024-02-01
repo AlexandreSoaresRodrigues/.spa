@@ -1,0 +1,52 @@
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+ }
+
+body {
+   background-image: url(./assets/MONTANHA.png);
+   background-repeat: no-repeat;
+   background-size: cover;
+}
+
+:root {
+   font-size: 62.5%;
+   --white: #C4C4CC;
+}
+
+nav {
+   display: flex;
+   padding: 40px 719px 40px 72px;
+   align-items: center;
+   flex-shrink: 0;
+   gap: 32px;
+}
+
+a {
+   font-size: 2.4rem;
+   color:var(--white) ;
+   text-decoration: none;
+   font-family: 'Roboto', sans-serif;
+}
+
+ a:hover{
+   color: #FFF;
+}
+
+.home h1 {
+   color: var(--white);
+}
+
+
+.Universe h1 {
+   color: var(--white);
+}
+
+.Universe p {
+   color: var(--white);
+}
+
+.Explore p {
+   color: var(--white);
+}
